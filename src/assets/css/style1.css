@@ -1,0 +1,4883 @@
+@import url(../css/fonts.css);
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #22222A;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+}
+
+.mainNavbar .nav-link {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0px !important;
+}
+
+.nav-item .nav-link:hover {
+  color: #6CC612;
+  transition: all 0.5s ease-in;
+}
+
+.navbar-brand {
+  width: 100%;
+  max-width: 213.66px;
+}
+
+.NavBtn img {
+  width: 100%;
+  max-width: 24px;
+}
+
+.mainNavbar .navbar {
+  padding: 0px;
+}
+
+.mainNavbar .navbar-brand {
+  padding: 0px;
+  margin: 0px;
+}
+
+.mainNavbar {
+  padding: 20px 25px;
+  position: fixed;
+  width: 100%;
+  z-index: 80;
+  background: #22222a;
+}
+
+.mainNavbar .collapse {
+  justify-content: space-between;
+  width: 100%;
+  max-width: 716px;
+  margin-left: auto;
+}
+
+.mainNavbar .navbar-nav {
+  width: 100%;
+  max-width: 376px;
+  justify-content: space-between;
+}
+
+.NavBtn {
+  text-decoration: none;
+  color: #FFFFFF;
+  border: 1px solid #6CC612;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: 40px;
+  padding: 10px 24px;
+}
+
+.A-Btn {
+  background: #6CC612;
+}
+
+.A-Btn:hover {
+  background: transparent !important;
+}
+
+.NavBtn:hover {
+  background: #6CC612;
+  transition: all 0.5s ease-in;
+}
+
+.navButton {
+  display: flex;
+  gap: 10px;
+}
+
+.header::before {
+  content: " ";
+  background: url(../img/BG-head.png);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: contain;
+  z-index: -1;
+  top: 135px;
+  background-repeat: no-repeat;
+}
+
+.header {
+  padding-bottom: 57px;
+}
+
+.LoginHead::before {
+  content: " ";
+  background: url(../img/BG-head.png);
+  width: 100%;
+  height: calc(100% - 24px);
+  position: absolute;
+  background-size: contain;
+  z-index: -1;
+  top: 24px;
+  background-repeat: no-repeat;
+}
+
+/* .header {
+    background: url(../img/BG-head.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 135px;
+} */
+.leftSide h1 {
+  color: #FFFFFF;
+  font-size: 69.33px;
+  font-weight: 400;
+  line-height: 1;
+  font-family: "BelyDisplayW00";
+  width: 100%;
+  max-width: 400px;
+}
+
+.HeaderBttons {
+  width: 100%;
+  max-width: 311px;
+  text-align: center;
+}
+
+.headButton {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #6CC612;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  border-radius: 30px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 39px;
+  margin-bottom: 20px;
+}
+
+.headButton img {
+  max-width: 22.64px;
+  width: 100%;
+}
+
+.dropdown-item:hover {
+  background-color: #22222A;
+}
+
+.headButton:hover {
+  background: transparent;
+  border: 1px solid #6CC612;
+  transition: all 0.5s ease-in;
+}
+
+.h-link {
+  color: #6CC612;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.HeaderBttons span {
+  color: #FFFFFF;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.rightSide {
+  width: 100%;
+  max-width: 570px;
+  z-index: 2;
+  position: relative;
+}
+
+.mainHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 194px;
+}
+
+.imgOne {
+  max-width: 92px;
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  top: 25%;
+  left: 0px;
+  right: 0px;
+  transform: translateY(50%);
+  cursor: pointer;
+}
+
+.imgTwo {
+  width: 100%;
+  max-width: 67.82px;
+  position: absolute;
+  top: 140px;
+  left: 94px;
+}
+
+.imgThree {
+  width: 100%;
+  max-width: 195.63px;
+  position: absolute;
+  bottom: -82px;
+  left: -126px;
+  z-index: -1;
+}
+
+.header .slick-list {
+  padding-bottom: 45px;
+}
+
+.fimg {
+  width: 100%;
+  max-width: 103px;
+}
+
+.f-contant p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  width: 100%;
+  max-width: 165px;
+}
+
+.f-contant {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ftext p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.ftext:hover p {
+  color: #6CC612;
+  transition: all 0.5s ease-in;
+}
+
+.ftext {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.ftext img {
+  width: 100%;
+  max-width: 24px;
+}
+
+.headerFoot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 88px;
+}
+
+.bimg {
+  width: 100%;
+  max-width: 72px;
+  height: 103px;
+}
+
+.Arrow {
+  background: rgba(255, 255, 255, 0.0196078431);
+  width: 100%;
+  max-width: 60px;
+  height: 60px;
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Arrow img {
+  width: 100%;
+  max-width: 18px;
+}
+
+.innerArrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  transform: translate(0%, -50%);
+  bottom: 50%;
+}
+
+.setArrows {
+  position: relative;
+}
+
+.left {
+  margin-left: 40px;
+}
+
+.right {
+  margin-right: 40px;
+}
+
+.slick-initialized .slick-slide {
+  display: flex !important;
+}
+
+.mobile {
+  background: #1D1D24;
+}
+
+.mobile-leftSide h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "BelyDisplayW00";
+}
+
+.mobile-leftSide span {
+  color: #6CC612;
+  margin-left: 8px;
+}
+
+.mobile-leftSide p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 20px;
+  width: 100%;
+  max-width: 505px;
+}
+
+.mainMobile {
+  display: flex;
+  align-items: center;
+  padding-top: 45px;
+  gap: 30px;
+}
+
+.mobile-rightSide {
+  width: 100%;
+  max-width: 533.67px;
+}
+
+.MobileButtons {
+  padding-top: 41px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.MobileBtn {
+  width: 100%;
+  max-width: 141.75px;
+}
+
+.working {
+  padding: 80px 0px;
+  border-bottom: 1px solid #1D1D24;
+}
+
+.working .container {
+  max-width: 1270px;
+  width: 100%;
+}
+
+.workingLeft h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "BelyDisplayW00";
+  width: 100%;
+  max-width: 238px;
+}
+
+.workingLeft span {
+  color: #6CC612;
+}
+
+.para {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 350px;
+}
+
+.One {
+  padding-top: 78px;
+  position: relative;
+  z-index: 5;
+}
+
+.workingLeft {
+  position: relative;
+  width: 40%;
+}
+
+.workingRight {
+  width: 60%;
+}
+
+.workingRight .nav {
+  justify-content: space-between;
+  border: unset;
+  flex-wrap: nowrap;
+}
+
+.working .nav-link {
+  border-radius: 100px;
+}
+
+.working .nav-link:hover {
+  border-color: #6CC612;
+}
+
+.working .nav-link.active {
+  background: transparent;
+  color: #FFFFFF;
+  border-color: #6CC612;
+  color: #6CC612;
+  padding: 0;
+}
+
+.working .nav-item h6 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 10px 20px 10px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  border-radius: 100px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.NavImg {
+  width: 100%;
+  max-width: 20px;
+}
+
+.workingRight .SliderImages {
+  padding-top: 50px;
+}
+
+.workingRight .sliderimages {
+  display: flex;
+  gap: 30px;
+}
+
+.workingRight .SimSliderIMG {
+  position: relative;
+}
+
+.sliderImge {
+  width: 100%;
+  max-width: 370px;
+}
+
+.SimSliderIMG p {
+  color: #6CC612;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  background: rgba(34, 34, 42, 0.8);
+  padding: 10px 20px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.workingRight .LowerContant h6 {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+  width: 100%;
+  max-width: 171px;
+}
+
+.workingRight .LowerContant a {
+  text-decoration: none;
+  color: #FFFFFF;
+  display: flex;
+  gap: 10px;
+}
+
+.workingRight .LowerContant a:hover {
+  color: #6CC612;
+}
+
+.workingRight .LowerContant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  left: 12px;
+  background: rgba(255, 255, 255, 0.0196078431);
+  padding: 11px 22px 11px 16px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 335px;
+}
+
+.LowerContant img {
+  width: 100%;
+  max-width: 24px;
+}
+
+.workingRight .sliderImg p {
+  color: #6CC612;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  background: rgba(34, 34, 42, 0.8);
+  padding: 10px 20px;
+  position: absolute;
+  top: 20px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  left: 20px;
+}
+
+.workingContant {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.workingArrow {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.MR-contant a {
+  color: #6CC612;
+  text-wrap: nowrap;
+}
+
+.MR-contant a img {
+  width: 100%;
+  max-width: 24px;
+}
+
+.MR-contant a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.Two {
+  padding-top: 30px;
+}
+
+.bgImage {
+  position: absolute;
+  z-index: 0;
+  top: 110px;
+  left: -34px;
+  width: 100%;
+  max-width: 118.03px;
+}
+
+.mainContant {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slick-slider {
+  margin-bottom: 0px !important;
+}
+
+.receiptsTop h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "BelyDisplayW00";
+}
+
+.receiptsTop img {
+  width: 100%;
+  max-width: 24px;
+}
+
+.receiptsTop span {
+  color: #6CC612;
+  margin-left: 5px;
+}
+
+.receipts {
+  padding-top: 80px;
+}
+
+.receiptsTop {
+  display: flex;
+  gap: 8px;
+  align-items: end;
+}
+
+.receiptsBox {
+  border: 1px solid #1D1D24;
+  border-radius: 20px;
+  width: calc(33.33% - 15px);
+  padding: 58px 40px 40px 40px;
+}
+
+.r-image {
+  width: 100%;
+  max-width: 70px;
+}
+
+.receiptsBox:hover {
+  border: 1px solid #6CC612;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+
+.receiptsBox h1 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-top: 58px;
+}
+
+.receiptsBox p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 22px;
+}
+
+.receiptsBoxes {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.receiptsBottom {
+  display: flex;
+  justify-content: center;
+  background: url(../img/BG-R.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px;
+}
+
+.R-contant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 667px;
+}
+
+.R-contant h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "BelyDisplayW00";
+}
+
+.R-Button {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-decoration: none;
+  border: 1px solid #6CC612;
+  border-radius: 100px;
+  padding: 10px 24px;
+}
+
+.R-Button:hover {
+  background: #6CC612;
+  transition: all 0.5s ease-in;
+}
+
+.customers-review {
+  background: #1D1D24;
+  padding: 70px 0px 80px 0px;
+}
+
+.customers-review h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "BelyDisplayW00";
+  text-align: center;
+}
+
+.customers-review span {
+  color: #6CC612;
+  margin-left: 5px;
+}
+
+.customersBoxes {
+  padding-top: 63px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.customersBox {
+  background: #FFFFFF;
+  padding: 28px 30px 34px 30px;
+  width: calc(25% - 15px);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.customerIMG {
+  border: 1px solid #6CC612;
+  width: 100%;
+  max-width: 70px;
+  padding: 5px;
+  border-radius: 40px;
+}
+
+.customersBox h2 {
+  padding-top: 18px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #22222A;
+}
+
+.customersBox p {
+  color: #22222A;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  padding-top: 20px;
+}
+
+.R-Stars {
+  padding-top: 37px;
+  display: flex;
+  gap: 2px;
+  cursor: pointer;
+}
+
+.Arrows-Customers {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.thinking {
+  padding: 80px 0px;
+}
+
+.thinking h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "BelyDisplayW00";
+  width: 100%;
+  max-width: 499px;
+  padding-bottom: 50px;
+}
+
+.thinking span {
+  color: #6CC612;
+}
+
+.thinking .nav-link.active {
+  padding: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  background-color: transparent;
+  border-radius: 200px;
+  opacity: 1;
+}
+
+.thinking .nav-link {
+  padding: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  border-radius: 200px;
+  opacity: 0.5;
+}
+
+.thinking .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.031372549);
+}
+
+.thinking .nav {
+  gap: 10px;
+}
+
+.thinking .thingBox .boxContant h2 {
+  color: #6CC612;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.thinking .thingBox .boxContant p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 389px;
+  padding-top: 10px;
+}
+
+.thinking .thingBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: start;
+  padding: 40px 70px 40px 50px;
+}
+
+.thinking-img {
+  width: 100%;
+  max-width: 70px;
+}
+
+.thinking-imageShow {
+  width: 100%;
+  max-width: 187px;
+}
+
+.thinking .tab-content .thinkingBG {
+  background: url(../img/t-BG.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 200px;
+}
+
+.Thinking50W {
+  width: calc(50% - 15px);
+}
+
+.Satisfaction {
+  background: #1D1D24;
+}
+
+.leftSatisfaction {
+  padding: 100px 0px;
+}
+
+.Pricing .dropdown-item {
+  padding: 0px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.Satisfaction .leftSatisfaction h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "BelyDisplayW00";
+  width: 100%;
+  max-width: 465px;
+}
+
+.Satisfaction .leftSatisfaction span {
+  color: #6CC612;
+}
+
+.SatisfactionForm {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.SatisfactionForm input {
+  box-shadow: none;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  border-radius: 100px;
+  padding: 14px 24px;
+  color: rgba(255, 255, 255, 0.1019607843) !important;
+}
+
+.SatisfactionForm .form-control:focus {
+  background: transparent;
+  box-shadow: none;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+}
+
+.SatisfactionForm .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.1019607843);
+}
+
+.SatisfactionBtn {
+  position: absolute;
+  right: 4px;
+  background: #6CC612;
+}
+
+.rightSatisfaction {
+  width: 100%;
+  max-width: 687px;
+}
+
+.SatisfactionBtn:hover {
+  background: transparent;
+}
+
+.MainSatisfaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Touch {
+  padding: 80px 0px;
+  background: url(../img/touch-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  border-bottom: 1px solid #1D1D24;
+}
+
+.touchimgBG {
+  width: 100%;
+  max-width: 307px;
+  position: absolute;
+  left: 0;
+}
+
+.TouchContant h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "BelyDisplayW00";
+  text-align: center;
+}
+
+.TouchContant h1 img {
+  width: 100%;
+  max-width: 24px;
+}
+
+.TouchForm {
+  padding-top: 40px;
+  width: 100%;
+  max-width: 476px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TouchForm .form-control {
+  box-shadow: none;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  color: rgba(255, 255, 255, 0.1019607843);
+  border-radius: 100px;
+  padding: 10px 0px 10px 24px;
+}
+
+.TouchForm .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.1019607843);
+}
+
+.TouchForm .formTwo {
+  margin-top: 10px;
+}
+
+.TouchForm .formTextArea {
+  margin-top: 10px;
+  border-radius: 19px;
+}
+
+.TouchForm .TouchFormBtn {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 191px;
+  padding: 10px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6CC612;
+}
+
+.TouchFormBtn img {
+  width: 100%;
+  max-width: 24px;
+}
+
+.TouchForm .TouchFormBtn:hover {
+  background: transparent;
+}
+
+.TouchContant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  padding-top: 52px;
+}
+
+.footerData {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footercontant p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.footericons span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.1019607843);
+  text-wrap: nowrap;
+  cursor: pointer;
+}
+
+.footericons span:hover {
+  color: #6CC612;
+  transition: all 0.5s ease-in;
+}
+
+.footercontant {
+  width: 100%;
+  max-width: 376px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.footerimglogo {
+  width: 100%;
+  max-width: 213.66px;
+}
+
+.footerimg img {
+  width: 100%;
+  max-width: 21.2px;
+}
+
+.footercontant p:hover {
+  color: #6CC612;
+  transition: all 0.5s ease-in;
+}
+
+.footericons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 195px;
+}
+
+.footerimages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 97px;
+  cursor: pointer;
+}
+
+.f-text {
+  color: rgba(255, 255, 255, 0.1019607843);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  display: block;
+  margin: 87px 0px 34px 0px;
+}
+
+.f-text:hover {
+  color: #6CC612;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+/* Large Screen (desktops) */
+@media (max-width: 1370px) {
+  .left {
+    margin-left: 15px;
+  }
+  .right {
+    margin-right: 15px;
+  }
+  .innerArrow {
+    bottom: 55%;
+  }
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .navbar-brand {
+    max-width: 180.66px;
+  }
+  .nav-item .nav-link {
+    font-size: 12px;
+  }
+  .mainNavbar .navbar-nav {
+    max-width: 300px;
+  }
+  .NavBtn {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .NavBtn img {
+    max-width: 20px;
+  }
+  .mainNavbar .collapse {
+    max-width: 580px;
+  }
+  .leftSide h1 {
+    font-size: 46px;
+    max-width: 270px;
+  }
+  .headButton {
+    font-size: 14px;
+    height: 48px;
+    margin-top: 29px;
+    margin-bottom: 15px;
+  }
+  .headButton img {
+    max-width: 20.64px;
+  }
+  .rightSide {
+    max-width: 420px;
+  }
+  .imgOne {
+    max-width: 80px;
+  }
+  .imgTwo {
+    max-width: 60.82px;
+    top: 102px;
+    left: 68px;
+  }
+  .imgThree {
+    max-width: 140px;
+    bottom: -62px;
+    left: -90px;
+  }
+  .mainHead {
+    padding-top: 125px;
+  }
+  .header .container {
+    max-width: 800px;
+  }
+  .innerArrow {
+    bottom: 48%;
+  }
+  .Arrow img {
+    max-width: 15px;
+  }
+  .Arrow {
+    max-width: 50px;
+    height: 50px;
+  }
+  .right {
+    margin-right: 20px;
+  }
+  .left {
+    margin-left: 20px;
+  }
+  .mainNavbar {
+    padding: 15px 20px;
+  }
+  .header {
+    padding-bottom: 30px;
+  }
+  .headerFoot {
+    padding-top: 40px;
+  }
+  .fimg {
+    max-width: 90px;
+  }
+  .f-contant p {
+    font-size: 13px;
+    max-width: 125px;
+  }
+  .f-contant {
+    gap: 12px;
+  }
+  .ftext img {
+    max-width: 22px;
+  }
+  .ftext p {
+    font-size: 13px;
+  }
+  .ftext {
+    gap: 10px;
+  }
+  .mainMobile {
+    padding-top: 30px;
+    gap: 30px;
+    justify-content: center;
+  }
+  .mobile-rightSide {
+    max-width: 350px;
+  }
+  .mobile-leftSide h1 {
+    font-size: 24px;
+  }
+  .mobile-leftSide p {
+    font-size: 12px;
+    padding-top: 16px;
+    max-width: 380px;
+  }
+  .MobileButtons {
+    padding-top: 25px;
+  }
+  .MobileBtn {
+    max-width: 110px;
+  }
+  .working {
+    padding: 40px 0px;
+  }
+  .workingLeft h1 {
+    font-size: 24px;
+    max-width: 200px;
+  }
+  .One {
+    padding-top: 45px;
+  }
+  .para {
+    font-size: 14px;
+    max-width: 330px;
+  }
+  .Two {
+    padding-top: 26px;
+  }
+  .working .container {
+    max-width: 950px;
+  }
+  .bgImage {
+    top: 60px;
+    left: -28px;
+    max-width: 110px;
+  }
+  .NavImg {
+    max-width: 16px;
+  }
+  .working .nav-item h6 {
+    font-size: 10px;
+    padding: 8px 16px 8px 8px;
+    gap: 14px;
+  }
+  .workingRight .SliderImages {
+    padding-top: 30px;
+  }
+  .sliderImge {
+    max-width: 290px;
+    margin: 0px 5px;
+  }
+  .SimSliderIMG p {
+    font-size: 10px;
+    padding: 8px 16px;
+    top: 20px;
+    left: 20px;
+  }
+  .workingRight .LowerContant h6 {
+    font-size: 10px;
+    max-width: 104px;
+  }
+  .LowerContant img {
+    max-width: 20px;
+  }
+  .workingRight .LowerContant a {
+    gap: 6px;
+  }
+  .workingRight .LowerContant {
+    bottom: 14px;
+    padding: 9px 20px 9px 14px;
+    max-width: 265px;
+  }
+  .MR-contant a img {
+    max-width: 22px;
+  }
+  .MR-contant a {
+    font-size: 14px;
+  }
+  .workingContant {
+    padding-top: 20px;
+  }
+  .receipts {
+    padding: 40px 0px;
+  }
+  .receiptsTop {
+    gap: 6px;
+  }
+  .receiptsTop h1 {
+    font-size: 24px;
+  }
+  .receiptsTop img {
+    max-width: 22px;
+  }
+  .receiptsBoxes {
+    padding-top: 30px;
+  }
+  .r-image {
+    max-width: 60px;
+  }
+  .receiptsBox h1 {
+    font-size: 16px;
+    padding-top: 40px;
+  }
+  .receiptsBox p {
+    font-size: 12px;
+    padding-top: 20px;
+  }
+  .receiptsBox {
+    padding: 50px 28px;
+  }
+  .receiptsBottom {
+    padding: 110px;
+  }
+  .R-contant h1 {
+    font-size: 22px;
+  }
+  .R-Button {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .R-contant {
+    max-width: 514px;
+  }
+  .customers-review {
+    padding: 50px 0px 60px 0px;
+  }
+  .customers-review h1 {
+    font-size: 24px;
+  }
+  .customersBoxes {
+    padding-top: 40px;
+  }
+  .customerIMG {
+    max-width: 65px;
+    padding: 3px;
+  }
+  .customersBox h2 {
+    padding-top: 14px;
+    font-size: 13px;
+  }
+  .customersBox p {
+    font-size: 12px;
+    padding-top: 16px;
+  }
+  .R-Stars {
+    padding-top: 30px;
+  }
+  .Arrows-Customers {
+    padding-top: 30px;
+  }
+  .thinking {
+    padding: 40px 0px;
+  }
+  .thinking h1 {
+    font-size: 24px;
+    max-width: 400px;
+    padding-bottom: 30px;
+  }
+  .thinking-img {
+    max-width: 60px;
+  }
+  .thinking .thingBox {
+    gap: 20px;
+    padding: 30px 50px 30px 30px;
+  }
+  .thinking .thingBox .boxContant h2 {
+    font-size: 16px;
+  }
+  .thinking .thingBox .boxContant p {
+    font-size: 12px;
+    max-width: 250px;
+    padding-top: 8px;
+  }
+  .thinking .tab-content .thinkingBG {
+    padding: 150px;
+  }
+  .rightSatisfaction {
+    max-width: 530px;
+  }
+  .Satisfaction .leftSatisfaction h1 {
+    font-size: 24px;
+    max-width: 370px;
+  }
+  .SatisfactionForm {
+    padding-top: 20px;
+  }
+  .SatisfactionForm input {
+    padding: 12px 20px;
+  }
+  .leftSatisfaction {
+    padding: 70px 0px;
+  }
+  .Touch {
+    padding: 40px 0px;
+  }
+  .TouchContant h1 {
+    font-size: 24px;
+  }
+  .touchimgBG {
+    max-width: 200px;
+  }
+  .TouchForm .form-control {
+    padding: 8px 0px 8px 20px;
+  }
+  .TouchForm .formTwo {
+    margin-top: 8px;
+  }
+  .TouchForm .formTextArea {
+    margin-top: 8px;
+  }
+  .TouchForm .TouchFormBtn {
+    margin-top: 20px;
+    max-width: 165px;
+    padding: 8px 20px;
+  }
+  .footerimglogo {
+    max-width: 180px;
+  }
+  .footercontant p {
+    font-size: 13px;
+  }
+  .footercontant {
+    max-width: 300px;
+  }
+  .footericons span {
+    font-size: 13px;
+  }
+  .footericons {
+    max-width: 175px;
+  }
+  .footerimg img {
+    max-width: 18px;
+  }
+  .footerimages {
+    max-width: 85px;
+  }
+  .footer {
+    padding-top: 40px;
+  }
+  .f-text {
+    font-size: 12px;
+    margin: 50px 0px 25px 0px;
+  }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .mainNavbar .navbar-toggler {
+    border: 1px solid #6CC612;
+  }
+  .mainNavbar .navbar-toggler-icon {
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28108, 198, 18, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .mainNavbar .navbar-collapse {
+    left: -300px;
+    height: 100%;
+    position: fixed;
+    transition: all 0.5s ease-in-out;
+  }
+  .mainNavbar .navbar-collapse.show {
+    background: #22222A;
+    width: 300px;
+    padding: 20px;
+    left: 0px;
+    top: 0;
+  }
+  .navButton {
+    padding-top: 30px;
+  }
+  .mainNavbar .navbar-nav {
+    gap: 30px;
+  }
+  .LogoExtraToogle {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #6CC612;
+    max-width: 170px;
+  }
+  .navbar-brand {
+    max-width: 170px;
+  }
+  .mainNavbar {
+    padding: 12px 15px;
+  }
+  .rightSide {
+    max-width: 340px;
+  }
+  .imgOne {
+    max-width: 60px;
+  }
+  .imgTwo {
+    max-width: 40px;
+    top: 85px;
+    left: 55px;
+  }
+  .imgThree {
+    max-width: 120px;
+    bottom: -54px;
+    left: -76px;
+  }
+  .leftSide h1 {
+    font-size: 42px;
+    max-width: 235px;
+  }
+  .headButton {
+    font-size: 12px;
+    height: 44px;
+    margin-top: 22px;
+    margin-bottom: 12px;
+  }
+  .headButton img {
+    max-width: 18px;
+  }
+  .header .container {
+    max-width: 680px;
+  }
+  .header .slick-list {
+    padding-bottom: 32px;
+  }
+  .headerFoot {
+    padding-top: 10px;
+  }
+  .fimg {
+    max-width: 70px;
+  }
+  .f-contant p {
+    font-size: 10px;
+    max-width: 100px;
+  }
+  .f-contant {
+    gap: 10px;
+  }
+  .ftext img {
+    max-width: 18px;
+  }
+  .ftext p {
+    font-size: 10px;
+  }
+  .ftext {
+    gap: 8px;
+  }
+  .mainMobile {
+    padding-top: 20px;
+    gap: 20px;
+  }
+  .mobile-rightSide {
+    max-width: 270px;
+  }
+  .mobile-leftSide h1 {
+    font-size: 20px;
+  }
+  .mobile-leftSide p {
+    font-size: 10px;
+    padding-top: 12px;
+    max-width: 290px;
+  }
+  .MobileButtons {
+    padding-top: 20px;
+    gap: 5px;
+  }
+  .MobileBtn {
+    max-width: 90px;
+  }
+  .working {
+    padding: 20px 0px;
+  }
+  .workingLeft h1 {
+    font-size: 20px;
+    max-width: 160px;
+  }
+  .working .container {
+    max-width: 730px;
+  }
+  .para {
+    font-size: 10px;
+    max-width: 225px;
+  }
+  .One {
+    padding-top: 35px;
+  }
+  .Two {
+    padding-top: 20px;
+  }
+  .bgImage {
+    top: 52px;
+    left: -20px;
+    max-width: 80px;
+  }
+  .NavImg {
+    max-width: 12px;
+  }
+  .working .nav-item h6 {
+    font-size: 8px;
+    padding: 6px 12px 6px 6px;
+    gap: 10px;
+  }
+  .workingRight .SliderImages {
+    padding-top: 20px;
+  }
+  .SimSliderIMG p {
+    font-size: 6px;
+    padding: 6px 12px;
+    top: 14px;
+    left: 14px;
+  }
+  .workingRight .LowerContant h6 {
+    font-size: 8px;
+    max-width: 85px;
+  }
+  .LowerContant img {
+    max-width: 16px;
+  }
+  .workingRight .LowerContant a {
+    gap: 4px;
+  }
+  .workingRight .LowerContant {
+    bottom: 12px;
+    padding: 6px 10px;
+    max-width: 188px;
+  }
+  .MR-contant a {
+    font-size: 12px;
+  }
+  .MR-contant a img {
+    max-width: 18px;
+  }
+  .workingContant {
+    padding-top: 10px;
+  }
+  .receipts {
+    padding: 20px 0px;
+  }
+  .receiptsTop h1 {
+    font-size: 20px;
+  }
+  .receiptsTop img {
+    max-width: 18px;
+  }
+  .receiptsTop {
+    gap: 2px;
+  }
+  .receiptsBoxes {
+    padding-top: 20px;
+  }
+  .r-image {
+    max-width: 50px;
+  }
+  .receiptsBox h1 {
+    font-size: 12px;
+    padding-top: 30px;
+  }
+  .receiptsBox p {
+    font-size: 10px;
+    padding-top: 16px;
+  }
+  .receiptsBox {
+    padding: 40px 20px;
+  }
+  .receiptsBottom {
+    padding: 80px;
+  }
+  .R-contant h1 {
+    font-size: 16px;
+  }
+  .R-Button {
+    font-size: 8px;
+    padding: 6px 16px;
+  }
+  .R-contant {
+    max-width: 360px;
+  }
+  .customers-review {
+    padding: 30px 0px;
+  }
+  .customers-review h1 {
+    font-size: 18px;
+  }
+  .customerIMG {
+    max-width: 60px;
+    padding: 2px;
+  }
+  .customersBox h2 {
+    padding-top: 12px;
+    font-size: 12px;
+  }
+  .customersBox p {
+    font-size: 10px;
+    padding-top: 12px;
+  }
+  .R-Stars {
+    padding-top: 20px;
+  }
+  .customersBox {
+    padding: 20px 25px 26px 25px;
+    margin: 0px 5px;
+  }
+  .thinking {
+    padding: 20px 0px;
+  }
+  .thinking h1 {
+    font-size: 18px;
+    max-width: 300px;
+    padding-bottom: 20px;
+  }
+  .thinking-img {
+    max-width: 50px;
+  }
+  .thinking .thingBox .boxContant h2 {
+    font-size: 12px;
+  }
+  .thinking .thingBox .boxContant p {
+    font-size: 8px;
+    max-width: 180px;
+    padding-top: 4px;
+  }
+  .thinking .thingBox {
+    gap: 12px;
+    padding: 20px 40px 20px 10px;
+  }
+  .thinking .nav {
+    gap: 8px;
+  }
+  .thinking .tab-content .thinkingBG {
+    padding: 110px;
+  }
+  .rightSatisfaction {
+    max-width: 380px;
+  }
+  .Satisfaction .leftSatisfaction h1 {
+    font-size: 20px;
+    max-width: 310px;
+  }
+  .SatisfactionForm input {
+    padding: 10px 16px;
+  }
+  .NavBtn {
+    font-size: 10px;
+    padding: 6px 14px;
+  }
+  .SatisfactionForm {
+    padding-top: 16px;
+  }
+  .leftSatisfaction {
+    padding: 40px 0px;
+  }
+  .Touch {
+    padding: 20px 0px;
+  }
+  .TouchContant h1 {
+    font-size: 20px;
+  }
+  .TouchContant h1 img {
+    max-width: 20px;
+  }
+  .touchimgBG {
+    max-width: 120px;
+  }
+  .TouchForm {
+    padding-top: 30px;
+    max-width: 340px;
+  }
+  .TouchForm .form-control {
+    padding: 6px 0px 6px 16px;
+  }
+  .TouchForm .TouchFormBtn {
+    margin-top: 14px;
+    max-width: 135px;
+    padding: 6px 16px;
+  }
+  .footer {
+    padding-top: 20px;
+  }
+  .footerimglogo {
+    max-width: 170px;
+  }
+  .footercontant p {
+    font-size: 12px;
+  }
+  .footercontant {
+    max-width: 270px;
+  }
+  .footericons span {
+    font-size: 12px;
+  }
+  .footericons {
+    max-width: 150px;
+  }
+  .footerimages {
+    max-width: 70px;
+  }
+  .footerimg img {
+    max-width: 16px;
+  }
+  .f-text {
+    font-size: 10px;
+    margin: 40px 0px 20px 0px;
+  }
+  .header::before {
+    top: 90px;
+  }
+  .mainHead {
+    padding-top: 110px;
+  }
+}
+/* mobile Phones small devices */
+@media (max-width: 575.98px) {
+  .mainNavbar {
+    padding: 12px;
+  }
+  .mainNavbar .navbar-collapse.show {
+    width: 240px;
+  }
+  .mainHead {
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 30px;
+  }
+  .rightSide {
+    max-width: 270px;
+  }
+  .imgOne {
+    max-width: 50px;
+  }
+  .imgTwo {
+    max-width: 35px;
+    top: 64px;
+    left: 45px;
+  }
+  .imgThree {
+    max-width: 100px;
+    bottom: -46px;
+    left: -63px;
+  }
+  .leftSide h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .headButton {
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .header {
+    margin-top: 85px;
+  }
+  .mainMobile {
+    gap: 30px;
+    flex-direction: column-reverse;
+  }
+  .mobile-leftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainContant {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .workingLeft {
+    width: 100%;
+  }
+  .workingRight {
+    width: 100%;
+  }
+  .workingLeft h1 {
+    max-width: 300px;
+  }
+  .para {
+    max-width: 340px;
+  }
+  .One {
+    padding-top: 20px;
+  }
+  .bgImage {
+    top: 26px;
+    left: -5px;
+  }
+  .working .nav-item {
+    width: 100%;
+  }
+  .working .nav-link {
+    width: 100%;
+  }
+  .working .nav-item h6 {
+    justify-content: center;
+  }
+  .workingRight .nav {
+    gap: 10px;
+  }
+  .sliderImge {
+    max-width: 360px;
+    margin: 0;
+  }
+  .receiptsBoxes {
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .receiptsBox {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .receiptsBottom {
+    padding: 38px;
+  }
+  .R-contant h1 {
+    font-size: 6px;
+  }
+  .R-Button {
+    font-size: 4px;
+    padding: 4px 10px;
+  }
+  .R-contant {
+    max-width: 170px;
+  }
+  .thinking h1 {
+    text-align: center;
+    max-width: 340px;
+  }
+  .thinking .nav {
+    width: 100%;
+  }
+  .for-mobile {
+    flex-direction: column;
+  }
+  .thinking .tab-content .thinkingBG {
+    padding: 174px;
+  }
+  .MainSatisfaction {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .Satisfaction .leftSatisfaction h1 {
+    text-align: center;
+  }
+  .rightSatisfaction {
+    padding-bottom: 20px;
+  }
+  .touchimgBG {
+    max-width: 100px;
+  }
+  .TouchForm {
+    padding-top: 80px;
+  }
+  .footerData {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer {
+    padding-top: 30px;
+  }
+  .f-text {
+    margin: 40px 0px 30px 0px;
+  }
+}
+.mainNavbar.login .navbar-brand {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginBox {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 100%;
+  max-width: 570px;
+  padding: 60px 46px 57px 70px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  box-shadow: 0px 61px 57px -38px rgba(0, 0, 0, 0.2);
+}
+
+.loginBox::before {
+  content: "";
+  background-image: url("../img/loginFormBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: inherit;
+}
+
+.boxHead h2 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.boxHead h2 span {
+  color: #6CC612;
+}
+
+.boxHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BoxForm {
+  padding-top: 48px;
+  padding-bottom: 50px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.BoxForm .form-control {
+  box-shadow: none;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  color: #FFFFFF;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 100px;
+}
+
+.formimg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loginimg {
+  width: 100%;
+  max-width: 24px;
+  cursor: pointer;
+}
+
+.formimg img {
+  width: 100%;
+  max-width: 24px;
+}
+
+.Remember img {
+  width: 100%;
+  max-width: 24px;
+}
+
+.Remember span {
+  color: #FFFFFF;
+}
+
+.Remember {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Remember span:hover {
+  color: #6CC612;
+  transition: all 0.5s ease-in;
+}
+
+.RememberContant a {
+  color: #6CC612;
+}
+
+.RememberContant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.RememberBtn {
+  padding: 10px 20px 10px 24px;
+  margin-top: 28px;
+  gap: 10px;
+  display: flex;
+  width: 100%;
+  max-width: 158px;
+  background: #6CC612;
+}
+
+.RememberBtn:hover {
+  background: transparent;
+}
+
+.licon img {
+  width: 100%;
+  max-width: 23px;
+}
+
+.licon {
+  background: #6CC612;
+  width: 100%;
+  max-width: 44px;
+  border-radius: 100px;
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Loginicons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.BoxFooter p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.BoxFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  border-top: 1px solid #1D1D24;
+  padding-top: 57px;
+}
+
+.LoginHead {
+  padding-top: 67px;
+  padding-bottom: 97px;
+  margin-top: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.headerLink {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.LoginHead p a {
+  color: #6CC612;
+}
+
+.VimgOne {
+  width: 100%;
+  max-width: 67px;
+  position: absolute;
+  top: 59px;
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.VimgTwo {
+  width: 100%;
+  max-width: 192px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transform: translate(-70%, -65%);
+}
+
+.VimgThree {
+  width: 100%;
+  max-width: 127px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  transform: translate(70%, -75%);
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .LoginHead::before {
+    height: calc(100% - 10px);
+    top: 10px;
+  }
+  .LoginHead {
+    padding-top: 55px;
+    padding-bottom: 70px;
+    margin-top: 75px;
+  }
+  .boxHead h2 {
+    font-size: 18px;
+  }
+  .RememberContant {
+    padding-top: 16px;
+  }
+  .BoxFooter p {
+    font-size: 14px;
+  }
+  .BoxForm {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .BoxFooter {
+    padding-top: 45px;
+  }
+  .licon img {
+    max-width: 20px;
+  }
+  .loginBox {
+    max-width: 570px;
+    padding: 50px 36px 47px 60px;
+  }
+  .VimgOne {
+    max-width: 62px;
+  }
+  .VimgTwo {
+    max-width: 170px;
+    transform: translate(-70%, -70%);
+  }
+  .VimgThree {
+    max-width: 110px;
+    transform: translate(70%, -90%);
+  }
+  .headerLink {
+    font-size: 15px;
+    padding-top: 30px;
+  }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .LoginHead {
+    padding-top: 46px;
+    padding-bottom: 60px;
+    margin-top: 62px;
+  }
+  .loginBox {
+    max-width: 535px;
+    padding: 40px 26px 37px 50px;
+  }
+  .BoxForm {
+    padding-top: 35px;
+  }
+  .RememberBtn {
+    max-width: 135px;
+    font-size: 12px;
+  }
+  .BoxFooter {
+    padding-top: 40px;
+  }
+  .licon {
+    max-width: 40px;
+    padding: 10px;
+  }
+  .VimgOne {
+    max-width: 60px;
+  }
+  .VimgTwo {
+    max-width: 160px;
+  }
+  .VimgThree {
+    max-width: 95px;
+  }
+}
+/* mobile Phones small devices */
+@media (max-width: 575.98px) {
+  .boxHead h2 {
+    font-size: 16px;
+  }
+  .BoxForm {
+    padding-top: 30px;
+    padding-bottom: 35px;
+  }
+  .LoginHead span {
+    font-size: 12px;
+  }
+  .LoginHead a {
+    font-size: 12px;
+  }
+  .Remember img {
+    max-width: 18px;
+  }
+  .RememberBtn {
+    max-width: 120px;
+    font-size: 12px;
+    text-wrap: nowrap;
+  }
+  .RememberBtn {
+    padding: 10px 20px 4px 24px;
+  }
+  .BoxFooter {
+    padding-top: 30px;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .loginBox {
+    max-width: 290px;
+    padding: 30px 26px 30px 26px;
+  }
+  .VimgOne {
+    max-width: 40px;
+  }
+  .VimgTwo {
+    max-width: 100px;
+    transform: translate(-68%, -125%);
+  }
+  .VimgThree {
+    max-width: 65px;
+    transform: translate(60%, -110%);
+  }
+}
+.signup .BoxFooter {
+  border-top: none;
+}
+
+.signup a {
+  text-wrap: nowrap;
+}
+
+.MainSection .Search-LeftSide {
+  width: 305px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  padding: 0px 30px;
+  padding-top: 16px;
+}
+
+.Search-LeftSide .SearchLogo {
+  width: 100%;
+  max-width: 213px;
+}
+
+.Search-LeftSide .SearchBox p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.Search-LeftSide .SearchBox {
+  background: rgba(255, 255, 255, 0.0117647059);
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 8px 12px 23px;
+  border-radius: 200px;
+  margin-top: 23px;
+  margin-bottom: 30px;
+}
+
+.Search-LeftSide .markimage img {
+  opacity: 0.5;
+}
+
+.Search-LeftSide .Search-Valueimage {
+  display: flex;
+  gap: 6px;
+}
+
+.Search-LeftSide .SearchButton a {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #6CC612;
+  padding: 6px 16px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  border: 1px solid transparent;
+  transition: all 0.5s ease;
+}
+
+.Search-LeftSide .SearchButton a:hover {
+  background: transparent;
+  border: 1px solid #6CC612;
+}
+
+.Search-LeftSide .markimage {
+  cursor: pointer;
+}
+
+.Search-LeftSide .CoinsTypeBox {
+  margin-bottom: 24px;
+}
+
+.Search-LeftSide .CoinsTypeBox h5 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #FFFFFF;
+  display: flex;
+  gap: 9px;
+  margin-bottom: 10px;
+}
+
+.Search-LeftSide .CoinsTypeBox h5 img {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.Search-LeftSide .DropDownButton {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 245px;
+  background: rgba(255, 255, 255, 0.0117647059);
+  border: 1px solid rgba(255, 255, 255, 0.0117647059);
+  color: #FFFFFF;
+  border-radius: 4px;
+  justify-content: space-between;
+  padding: 10px 10px 10px 16px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.Search-LeftSide .DropDownButton .Map {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.Search-LeftSide .DropDownButton .Map img {
+  width: 100%;
+  max-width: 20px;
+}
+
+.Search-LeftSide .dropdown-item {
+  display: flex;
+  gap: 10px;
+  padding: 5px 0px;
+  color: #FFFFFF;
+  background-color: transparent;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.Search-LeftSide .dropdown-item img {
+  width: 100%;
+  max-width: 20px;
+}
+
+.Search-LeftSide .dropdown-item:hover {
+  background: #22222A;
+}
+
+.Search-LeftSide .dropdown-menu {
+  padding: 10px;
+  width: 100%;
+  max-width: 245px;
+  background: #6CC612;
+}
+
+.Search-LeftSide .Percentage .progress {
+  --bs-progress-bar-bg: #6CC612;
+  width: 100%;
+  max-width: 159px;
+  cursor: pointer;
+}
+
+.Search-LeftSide .Percentage h6 {
+  color: #FFFFFF;
+  padding: 10px 23px;
+  background: rgba(255, 255, 255, 0.0117647059);
+  width: 100%;
+  max-width: 74px;
+  border-radius: 4px;
+}
+
+.Search-LeftSide .Percentage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Search-LeftSide .ResetBottom h4 {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.Search-LeftSide .ResetBottom img {
+  opacity: 0.5;
+}
+
+.Search-LeftSide .ResetBottom {
+  background: rgba(255, 255, 255, 0.0117647059);
+  padding: 7px 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.fade:not(.show) {
+  display: none;
+}
+
+.MainSection .Search-RightSide {
+  margin-left: 305px;
+}
+.MainSection .Search-RightSide p {
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 2;
+  opacity: 0.4;
+}
+
+.Search-RightSide .navbar {
+  padding: 30px 20px 30px 0px;
+  border-bottom: 1px solid #1F1F26;
+  justify-content: end;
+}
+
+.Search-RightSide .navbar-brand {
+  padding: 0px;
+  margin: 0px;
+  color: #534242;
+}
+
+.Search-RightSide .navbar-nav .nav-item {
+  color: #FFFFFF !important;
+}
+
+.Search-RightSide .navbar-nav {
+  width: 100%;
+  max-width: 411px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Search-RightSide .dropdown-toggle {
+  background: transparent;
+  padding: 0px;
+  border: none;
+}
+
+.Pricing .dropdown-toggle {
+  background: transparent;
+  padding: 0px;
+  border: none;
+}
+
+.Pricing .dropdown-menu {
+  padding: 5px 2px;
+  margin: 0px;
+  background: #6CC612;
+  min-width: 80px;
+  left: -90px;
+  top: 45px;
+}
+
+.Pricing .navbar-nav {
+  width: 100%;
+  max-width: 411px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Pricing .collapse {
+  max-width: unset;
+}
+
+.Search-RightSide .nav-item .nav-link {
+  padding: 0px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.Search-RightSide .nav-item .nav-link:hover {
+  color: #6CC612;
+  border: unset;
+}
+
+.Search-RightSide .dropdown-item {
+  padding: 0px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.Search-RightSide .dropdown-menu {
+  padding: 5px 2px;
+  margin: 0px;
+  background: #6CC612;
+  min-width: 80px;
+  left: -60px;
+  top: 40px;
+}
+
+.Search-RightSide .DropDownImg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.Search-RightSide .DropDownImg img {
+  width: 100%;
+  max-width: 43px;
+}
+
+.Search-RightSide .collapse {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 805px;
+}
+
+#collapseTwo {
+  width: 100%;
+  max-width: 950px;
+}
+#collapseTwo .accordion-body {
+  width: 100%;
+  max-width: 950px;
+}
+
+#collapseThree {
+  width: 100%;
+  max-width: 950px;
+}
+#collapseThree .accordion-body {
+  width: 100%;
+  max-width: 950px;
+}
+
+#collapseFour {
+  width: 100%;
+  max-width: 950px;
+}
+#collapseFour .accordion-body {
+  width: 100%;
+  max-width: 950px;
+}
+
+#collapseFive {
+  width: 100%;
+  max-width: 950px;
+}
+#collapseFive .accordion-body {
+  width: 100%;
+  max-width: 950px;
+}
+
+#collapseSix {
+  width: 100%;
+  max-width: 950px;
+}
+#collapseSix .accordion-body {
+  width: 100%;
+  max-width: 950px;
+}
+
+#collapseSeven {
+  width: 100%;
+  max-width: 950px;
+}
+#collapseSeven .accordion-body {
+  width: 100%;
+  max-width: 950px;
+}
+
+.form-check-input:checked[type=radio] {
+  --bs-form-check-bg-image: unset;
+}
+
+.form-check-input {
+  --bs-form-check-bg: #22222A;
+}
+
+.form-check-input:checked {
+  background-color: #6CC612;
+}
+
+.SearchNavTab {
+  padding: 34px 0px 0px 30px;
+  padding-right: 135px;
+}
+.SearchNavTab p {
+  color: #FFFFFF;
+}
+.SearchNavTab .FR-Button {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  border: 2px solid #6CC612;
+  border-radius: 100px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
+.SearchNavTab .FR-Button:hover {
+  background: #6CC612;
+  transition: all 0.5s ease-in-out;
+}
+.SearchNavTab .nav {
+  gap: 30px;
+}
+.SearchNavTab .nav-link.active {
+  color: #6CC612;
+  background: transparent;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #6CC612;
+  padding-bottom: 17px;
+}
+.SearchNavTab .nav-link:hover {
+  border: 1px solid transparent;
+}
+.SearchNavTab .nav {
+  border-bottom: unset;
+}
+.SearchNavTab .SearchBar {
+  padding-top: 27px;
+  padding-bottom: 25px;
+}
+.SearchNavTab .SearchBar input {
+  height: 58px;
+  padding: 0px 26px;
+}
+.SearchNavTab .SearchBar input::placeholder {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 16px;
+}
+.SearchNavTab .form-control {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  color: #FFFFFF;
+  box-shadow: none;
+}
+
+.SearchNavTab .nav-link {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+}
+.SearchNavTab .imageContent {
+  display: flex;
+  gap: 7px;
+  padding-top: 20px;
+}
+.SearchNavTab .imageContent img {
+  opacity: 0.5;
+}
+.SearchNavTab .imageContent p {
+  color: rgba(255, 255, 255, 0.1019607843);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.SearchNavTab .FR-Contant {
+  width: 100%;
+  max-width: 178px;
+  margin-left: auto;
+}
+.SearchNavTab .Line {
+  border: 1px solid #1F1F26;
+  margin-top: 26px;
+  margin-bottom: 40px;
+}
+.SearchNavTab .SearchContant {
+  border: 1px solid rgba(255, 255, 255, 0.031372549);
+  padding: 40px 70px 280px 43px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+.SearchNavTab .SearchContant h2 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.SearchNavTab .SearchContant h3 {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-top: 17px;
+  padding-bottom: 24px;
+}
+.SearchNavTab .SearchContant span {
+  color: #FFFFFF;
+  opacity: 0.6;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  border-radius: 100px;
+  padding: 4px 17px;
+  cursor: pointer;
+}
+.SearchNavTab .SpanTag {
+  padding-top: 10px;
+  padding-bottom: 19px;
+}
+.SearchNavTab .icontext {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.SearchNavTab .icontext img {
+  width: 100%;
+  max-width: 24px;
+}
+.SearchNavTab .icontext p {
+  color: #FFFFFF;
+  opacity: 0.6;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.SearchNavTab .iconsContant {
+  gap: 7px;
+  display: flex;
+  flex-direction: column;
+}
+.SearchNavTab .ContantLines {
+  display: flex;
+  gap: 20px;
+}
+.SearchNavTab .ContantLines p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.SearchNavTab .ContantBoxLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.SearchNavTab .ContantBoxRight {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.SearchNavTab .ContantBoxRight p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.SearchNavTab .MainContantBox {
+  display: flex;
+  gap: 50px;
+  padding-bottom: 40px;
+}
+.SearchNavTab .StarBox {
+  display: flex;
+  gap: 6px;
+}
+.SearchNavTab .StarBox img {
+  width: 100%;
+  max-width: 20px;
+  cursor: pointer;
+}
+.SearchNavTab .BoxBottom {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.031372549);
+}
+.SearchNavTab .BoxBottom p {
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.SearchNavTab .BoxBottomTwo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.SearchNavTab .RightBoxes {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.SearchNavTab .BottomBtn {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  justify-content: center;
+  display: flex;
+}
+.SearchNavTab .BottomSearch {
+  align-items: baseline;
+  border-top: 1px solid #1F1F26;
+}
+.SearchNavTab .MealHead {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 795px;
+  padding-left: 44px;
+}
+.SearchNavTab .MealHead h1 {
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.7;
+}
+.SearchNavTab .SearchBoxMeal {
+  border: 1px solid rgba(255, 255, 255, 0.031372549);
+  border-radius: 20px;
+  padding: 41px 0px 52px 0px;
+  margin-left: 30px;
+}
+.SearchNavTab .AccordionSections {
+  padding-top: 74px;
+}
+.SearchNavTab .AccordionSections .accordion-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 32px 45px;
+}
+.SearchNavTab .LeftContant img {
+  padding-top: 36px;
+  width: 100%;
+  max-width: 326px;
+}
+.SearchNavTab .LeftContant h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+.SearchNavTab .LeftContant h6 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #22222A;
+  background: #FFFFFF;
+  padding: 4px 17px;
+  width: 100%;
+  max-width: 102px;
+  border-radius: 100px;
+  text-align: center;
+  margin-top: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.SearchNavTab .LeftContant h6:hover {
+  background: transparent;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  transition: all 0.5s ease;
+}
+.SearchNavTab .accordion-button {
+  background-color: #22222A;
+}
+.SearchNavTab .accordion-button::after {
+  background: url(../img/Slide\ Down\ Arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.SearchNavTab .accordion {
+  --bs-accordion-bg: #22222A;
+  --bs-accordion-border-color: #FFFFFF08;
+}
+.SearchNavTab .accordion-button:focus {
+  box-shadow: unset;
+}
+.SearchNavTab .MainContantAcc {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 36px;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.031372549);
+}
+.SearchNavTab .RightContant {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.SearchNavTab .RightContant h5,
+.SearchNavTab .RightContant h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #FFFFFF;
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+.SearchNavTab .SideTwo {
+  padding: 0px 50px 0px 93px;
+  padding-top: 40px;
+}
+.SearchNavTab .accordion-body {
+  padding-left: 44px;
+  width: 100%;
+  max-width: 795px;
+}
+.SearchNavTab .TickContant {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.SearchNavTab .SearchDownContant {
+  width: 100%;
+  max-width: 950px;
+}
+.SearchNavTab .FoodBtnTwo {
+  padding-top: 41px;
+}
+.SearchNavTab .RadioButtons h2 {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.SearchNavTab .form-check-label {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.SearchNavTab .form-check {
+  margin: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.0196078431);
+  background: rgba(255, 255, 255, 0.031372549);
+  border-radius: 200px;
+  padding: 5px 10px 5px 14px;
+  gap: 10px;
+  display: flex;
+}
+.SearchNavTab .form-check-input {
+  border: 3px solid #6CC612;
+  margin-left: 0px;
+  cursor: pointer;
+  box-shadow: none;
+}
+.SearchNavTab .RadioBtn {
+  padding-top: 13px;
+  gap: 10px;
+  display: flex;
+}
+.SearchNavTab .RadioContantSide {
+  padding-top: 10px;
+}
+.SearchNavTab .RadioContant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HistoryPage .HistoryAccordionBox .accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  --bs-accordion-bg: none;
+  --bs-accordion-border-color: none;
+}
+.HistoryPage .HistoryAccordionBox .accordion .HistoryCalenderTwo {
+  padding-top: 51px;
+}
+.HistoryPage .HistoryAccordionBox .accordion-button {
+  border-radius: 20px;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  border: 1px solid rgba(255, 255, 255, 0.031372549);
+}
+.HistoryPage .HistoryCalender {
+  opacity: 0.5;
+  display: flex;
+  gap: 16px;
+  padding: 38px 0 20px 0;
+  justify-content: center;
+}
+.HistoryPage .HistoryCalender img {
+  width: 100%;
+  max-width: 24px;
+}
+.HistoryPage .HistoryCalender p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.HistoryMealBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 50px;
+}
+.HistoryMealBox .HistoryLeftContant {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.HistoryMealBox .HistoryLeftContant img {
+  width: 100%;
+  max-width: 90px;
+}
+.HistoryMealBox .HistoryLeftContant h4 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+.HistoryMealBox .HistoryLeftContant span {
+  color: #FFFFFF;
+  opacity: 0.6;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  border-radius: 100px;
+  padding: 4px 17px;
+  cursor: pointer;
+}
+.HistoryMealBox .HistoryRightContant p {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+
+.HistoryPagination {
+  padding-top: 40px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 694px;
+  margin-left: auto;
+}
+.HistoryPagination .PaginationLeftSide .pagination {
+  gap: 5px;
+}
+.HistoryPagination .PaginationLeftSide .pagination .ImageAndArrow {
+  padding-left: 30px;
+}
+.HistoryPagination .PaginationLeftSide .pagination .ImageAndArrow img {
+  padding-left: 6px;
+}
+.HistoryPagination .PaginationLeftSide .page-link {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.031372549);
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+.HistoryPagination .PaginationLeftSide .page-link:focus {
+  box-shadow: unset;
+}
+.HistoryPagination .PaginationLeftSide .page-link:hover {
+  border: 1px solid #6CC612;
+  transition: all ease-in-out 0.5s;
+}
+.HistoryPagination .PaginationLeftSide nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.HistoryPagination .PaginationLeftSide p {
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 2;
+  opacity: 0.4;
+}
+
+.SettingLeftSide {
+  padding-right: 100px;
+  padding-left: 30px;
+}
+.SettingLeftSide .ProfilePic {
+  width: 100%;
+  max-width: 270px;
+  position: relative;
+}
+.SettingLeftSide .PencilPic {
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 30px;
+  top: 12px;
+  right: 12px;
+  padding: 6px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.SettingLeftSide .PencilPic img {
+  width: 100%;
+  max-width: 24px;
+}
+.SettingLeftSide .PencilPic:hover {
+  border: 1px solid #FFFFFF;
+  background: #6CC612;
+  transition: all ease-in-out 0.5s;
+}
+.SettingLeftSide .SettingPara p {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+  opacity: 0.4;
+  text-transform: uppercase;
+  padding: 20px 0px 16px 0px;
+}
+.SettingLeftSide .DollarContant {
+  display: flex;
+  gap: 8px;
+}
+.SettingLeftSide .DollarContant img {
+  width: 100%;
+  max-width: 24px;
+}
+.SettingLeftSide .DollarContant .DollarNumber {
+  color: #FFFFFF;
+  opacity: 1.9;
+}
+
+.SettingMain {
+  display: flex;
+  padding-top: 70px;
+}
+
+.SettingRightSide .BottomBtn .toggle-btn.active > .inner-circle {
+  margin-left: 22px !important;
+}
+
+.SettingRightSide {
+  width: 100%;
+}
+.SettingRightSide h1 {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.SettingRightSide p {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: uppercase;
+  padding: 25px 0 6px 0;
+}
+.SettingRightSide .form-control {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  color: #FFFFFF;
+  box-shadow: none;
+  height: 43px;
+  padding-left: 10px;
+  margin: 6px 0 20px 0;
+}
+.SettingRightSide .ParaTwo {
+  padding: 0;
+  padding-bottom: 6px;
+}
+.SettingRightSide .FR-Button {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  border: 2px solid #6CC612;
+  border-radius: 100px;
+  padding: 10px 24px;
+  text-transform: uppercase;
+}
+.SettingRightSide .FR-Button:hover {
+  background: #6CC612;
+  transition: all 0.5s ease-in-out;
+}
+.SettingRightSide .Strenght {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.SettingRightSide .Strenght h6 {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.SettingRightSide .Strenght h5 {
+  color: #6CC612;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.SettingRightSide .Account {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.SettingRightSide .WorldSelect h5 {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+.SettingRightSide .DropDownButton {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.0117647059);
+  border: 1px solid rgba(255, 255, 255, 0.0117647059);
+  color: #FFFFFF;
+  border-radius: 4px;
+  justify-content: space-between;
+  padding: 10px 10px 10px 16px;
+  margin: 6px 0 20px 0;
+}
+.SettingRightSide .Map {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.SettingRightSide .Map img {
+  width: 100%;
+  max-width: 20px;
+}
+.SettingRightSide .dropdown-menu {
+  width: 100%;
+}
+.SettingRightSide .dropdown-item {
+  gap: 10px;
+  display: flex;
+  padding: 10px 0px 10px 14px;
+}
+.SettingRightSide .BottomBtn {
+  display: flex;
+  gap: 15px;
+  align-items: end;
+}
+.SettingRightSide .BottomBtn .toggle-btn {
+  width: 54px;
+  height: 31px;
+  background: #1F1F26;
+  border-radius: 30px;
+  padding: 5px;
+  transition: all 300ms ease-in-out;
+}
+.SettingRightSide .BottomBtn .toggle-btn.active {
+  background: #1F1F26 !important;
+}
+.SettingRightSide .BottomBtn .inner-circle {
+  position: absolute;
+  width: 100%;
+  max-width: 21px;
+  height: 21px;
+  background: #6CC612;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+}
+.SettingRightSide .BottomBtn .toggle-btn.active {
+  background: #55acee;
+}
+.SettingRightSide .BottomBtn .toggle-btn.active > .inner-circle {
+  margin-left: 40px;
+}
+.SettingRightSide .BottomBtn img:hover {
+  cursor: pointer;
+}
+.SettingRightSide .BottomBtn p {
+  color: #FFFFFF;
+  opacity: 1.9;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.SettingRightSide .Mainsection {
+  width: 100%;
+  max-width: 400px;
+}
+
+.SettingBottom {
+  padding-left: 30px;
+  padding-right: 135px;
+  align-items: baseline;
+}
+
+.Pricing .DropDownImg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.Pricing .DropDownImg img {
+  width: 100%;
+  max-width: 43px;
+}
+
+.PricingContant {
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+.PricingContant::before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  background: url(../img/BG-LastPage.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translate(25%, -66%);
+}
+.PricingContant .TopMainContant {
+  display: flex;
+  flex-direction: column;
+}
+.PricingContant .TopMainContant .PricingButton .nav-tabs {
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  border-radius: 100px;
+  padding: 4px;
+  width: 100%;
+  max-width: 383px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.PricingContant .TopMainContant .PricingButton .nav-link {
+  margin: 0;
+  background: transparent;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  padding: 10px 40px;
+  border-radius: 100px;
+}
+.PricingContant .TopMainContant .PricingButton .nav-link:hover {
+  border: 1px solid transparent;
+}
+.PricingContant .TopMainContant .PricingButton .nav-link.active {
+  background-color: #6CC612;
+  border: unset;
+}
+.PricingContant p {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  padding-top: 65px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.PricingContant p img {
+  opacity: 0.5;
+  padding-right: 10px;
+}
+.PricingContant p span {
+  color: #6CC612;
+}
+.PricingContant .TopHeading {
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 23px;
+  justify-content: center;
+}
+.PricingContant .TopHeading h1 {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2;
+  padding-right: 7px;
+}
+.PricingContant .TopHeading h1 span {
+  color: #6CC612;
+}
+.PricingContant .PricingBoxes {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.PricingContant .PricingBoxes .BoxLeftimg {
+  position: absolute;
+  width: 100%;
+  max-width: 192px;
+  left: -19%;
+  top: 9%;
+  transform: translate(50%, 50%);
+  z-index: -1;
+}
+.PricingContant .PricingBoxes .BoxRightimg {
+  position: absolute;
+  width: 100%;
+  max-width: 136px;
+  right: -2%;
+  top: 20%;
+  transform: translate(50%, 50%);
+}
+.PricingContant .PricingBoxes .MainPricingBox {
+  width: calc(33.33% - 15px);
+  position: relative;
+}
+.PricingContant .PricingBoxes .LeftImage {
+  width: 100%;
+  max-width: 192px;
+  position: absolute;
+  left: 164px;
+  top: 130px;
+  z-index: -1;
+}
+.PricingContant .PricingBoxes .RightImage {
+  width: 100%;
+  max-width: 136px;
+  position: absolute;
+  right: 195px;
+  top: 181px;
+  z-index: 7;
+}
+.PricingContant .PricingBoxButton {
+  text-transform: uppercase;
+  width: fit-content;
+  margin: auto;
+  display: block;
+}
+.PricingContant .PricingBox {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-bottom: 54px;
+  padding: 60px 40px 103px 40px;
+  height: 561px;
+}
+.PricingContant .PricingBox .TagImage {
+  width: 100%;
+  max-width: 138px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.PricingContant .PricingBox .TagImage img {
+  width: 100%;
+}
+.PricingContant .PricingBox h4 {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.PricingContant .PricingBox h2 {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.PricingContant .PricingBox h2 span {
+  color: #6CC612;
+}
+.PricingContant .PricingBox h6 {
+  color: #FFFFFF;
+  opacity: 0.5;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.PricingContant .imageContant {
+  padding-top: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.PricingContant .imageContant .ContantLines {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.PricingContant .imageContant .ContantLines img {
+  width: 100%;
+  max-width: 24px;
+}
+.PricingContant .imageContant .ContantLines h3 {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .Search-LeftSide .SearchLogo {
+    max-width: 170px;
+  }
+  .Search-LeftSide .SearchButton a {
+    padding: 4px 14px;
+    font-size: 10px;
+  }
+  .Search-LeftSide .SearchBox {
+    padding: 8px 6px 8px 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  .Search-LeftSide .CoinsTypeBox h5 {
+    font-size: 13px;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .Search-LeftSide .DropDownButton {
+    max-width: 235px;
+    padding: 8px 8px 8px 14px;
+  }
+  .Search-LeftSide .DropDownButton .Map {
+    gap: 8px;
+    font-size: 13px;
+  }
+  .Search-LeftSide .DropDownButton .Map img {
+    max-width: 16px;
+  }
+  .Search-LeftSide .dropdown-item {
+    gap: 8px;
+    padding: 4px 0px;
+    font-size: 13px;
+  }
+  .Search-LeftSide .dropdown-item img {
+    max-width: 18px;
+  }
+  .MainSection .Search-LeftSide {
+    width: 290px;
+    padding: 0px 25px;
+    padding-top: 14px;
+  }
+  .Search-RightSide .nav-item .nav-link {
+    font-size: 13px;
+  }
+  .Search-RightSide .navbar-nav {
+    max-width: 370px;
+  }
+  .Search-RightSide .navbar {
+    padding: 20px 15px 20px 0px;
+  }
+  .Search-RightSide .DropDownImg {
+    gap: 8px;
+  }
+  .Search-RightSide .DropDownImg img {
+    width: 100%;
+    max-width: 40px;
+  }
+  .SearchNavTab {
+    padding: 30px 0px 0px 26px;
+    padding-right: 100px;
+  }
+  .SearchNavTab .nav-link {
+    font-size: 20px !important;
+  }
+  .SearchNavTab .nav {
+    gap: 26px;
+  }
+  .HistoryPage .HistoryCalender {
+    gap: 14px;
+    padding: 32px 0 18px 0;
+  }
+  .HistoryPage .HistoryCalender p {
+    font-size: 14px;
+  }
+  .HistoryPage .HistoryCalender img {
+    max-width: 22px;
+  }
+  .HistoryMealBox .HistoryLeftContant img {
+    max-width: 85px;
+  }
+  .HistoryMealBox .HistoryLeftContant h4 {
+    font-size: 18px;
+    padding-bottom: 8px;
+  }
+  .HistoryMealBox .HistoryLeftContant span {
+    font-size: 10px;
+    padding: 2px 10px;
+  }
+  .HistoryMealBox .HistoryRightContant p {
+    font-size: 12px;
+  }
+  .HistoryMealBox {
+    padding-right: 35px;
+  }
+  .accordion-button {
+    padding: 16px;
+  }
+  .HistoryPage .HistoryAccordionBox .accordion .HistoryCalenderTwo {
+    padding-top: 40px;
+  }
+  .HistoryPagination .PaginationLeftSide .pagination {
+    gap: 4px;
+  }
+  .HistoryPagination .PaginationLeftSide p {
+    font-size: 13px;
+  }
+  .Search-RightSide p {
+    font-size: 13px;
+  }
+  .HistoryPagination {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    max-width: 540px;
+  }
+  .SearchNavTab .LeftContant h3 {
+    font-size: 16px;
+  }
+  .SearchNavTab .LeftContant h6 {
+    font-size: 10px;
+    max-width: 80px;
+    margin-top: 8px;
+  }
+  .SearchNavTab .LeftContant img {
+    padding-top: 30px;
+    max-width: 300px;
+  }
+  .SearchNavTab .icontext img {
+    max-width: 20px;
+  }
+  .SearchNavTab .icontext p {
+    font-size: 13px;
+  }
+  .SearchNavTab .icontext {
+    gap: 14px;
+  }
+  .SearchNavTab .RightContant h5,
+  .SearchNavTab .RightContant h4 {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .SearchNavTab .ContantLines {
+    gap: 14px;
+  }
+  .SearchNavTab .ContantLines p {
+    font-size: 13px;
+  }
+  .SearchNavTab .ContantBoxRight p {
+    font-size: 13px;
+  }
+  .SearchNavTab .ContantBoxRight {
+    gap: 12px;
+  }
+  .SearchNavTab .MainContantAcc {
+    padding: 40px 20px 30px 20px;
+    gap: 70px;
+  }
+  .SearchNavTab .SearchDownContant {
+    max-width: 600px;
+    padding-left: 0px;
+  }
+  .accordion-body {
+    padding: 0;
+  }
+  .SearchNavTab .SearchBar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .SearchNavTab .SearchBar input {
+    height: 50px;
+    padding: 0px 20px;
+  }
+  .SearchNavTab .FR-Button {
+    font-size: 12px;
+    padding: 8px 30px;
+  }
+  .SearchNavTab .imageContent {
+    gap: 6px;
+    padding-top: 18px;
+  }
+  .SearchNavTab .imageContent p {
+    font-size: 10px;
+  }
+  .SearchNavTab .RadioContantSide {
+    width: 100%;
+    max-width: 140px;
+  }
+  .SearchNavTab .SearchContant h2 {
+    font-size: 18px;
+  }
+  .SearchNavTab {
+    padding: 30px 0px 0px 20px;
+    padding-right: 80px;
+  }
+  .SearchNavTab .SearchContant span {
+    font-size: 10px;
+    padding: 2px 14px;
+  }
+  .SearchNavTab .SearchContant h3 {
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 20px;
+  }
+  .SearchNavTab .SearchContant {
+    padding: 30px 50px 210px 30px;
+    margin-left: 24px;
+  }
+  .SearchNavTab .ContantLines p {
+    font-size: 12px;
+  }
+  .SearchNavTab .ContantBoxRight p {
+    font-size: 12px;
+  }
+  .SearchNavTab .StarBox {
+    gap: 5px;
+  }
+  .SearchNavTab .StarBox img {
+    max-width: 16px;
+  }
+  .Search-RightSide p {
+    font-size: 12px;
+  }
+  .SearchNavTab .BoxBottomTwo {
+    gap: 8px;
+  }
+  .SearchNavTab .RightBoxes {
+    gap: 30px;
+  }
+  .SearchNavTab .BottomBtn {
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+  .SearchNavTab .RadioButtons h2 {
+    font-size: 14px;
+  }
+  .SearchNavTab .form-check-label {
+    font-size: 12px;
+  }
+  .SearchNavTab .form-check {
+    padding: 3px 8px 3px 12px;
+    gap: 8px;
+    align-items: end;
+  }
+  .SearchNavTab .RadioBtn {
+    padding-top: 10px;
+    gap: 6px;
+  }
+  .SearchNavTab .form-check-input {
+    border: 2px solid #6CC612;
+  }
+  .SearchNavTab .SearchBoxMeal {
+    padding: 30px 0px 40px 0px;
+    margin-left: 20px;
+  }
+  .SearchNavTab .MealHead h1 {
+    font-size: 22px;
+  }
+  .SearchNavTab .MealHead {
+    max-width: 570px;
+    padding-left: 20px;
+  }
+  .SearchNavTab .icontext p {
+    font-size: 12px;
+  }
+  .SearchNavTab .AccordionSections {
+    padding-top: 50px;
+  }
+  .SearchNavTab .AccordionSections .accordion-button {
+    font-size: 15px;
+    padding: 20px 30px;
+  }
+  .Pricing .navbar-nav {
+    max-width: 340px;
+  }
+  .Pricing .DropDownImg {
+    gap: 8px;
+    justify-content: end;
+  }
+  .Pricing .DropDownImg img {
+    max-width: 40px;
+  }
+  .PricingContant .TopHeading h1 {
+    font-size: 36px;
+    padding-right: 6px;
+  }
+  .PricingContant .TopHeading {
+    padding-bottom: 20px;
+  }
+  .PricingContant .TopMainContant .PricingButton .nav-link {
+    font-size: 12px;
+    padding: 8px 30px;
+    border-radius: 100px;
+  }
+  .PricingContant .TopMainContant .PricingButton .nav-tabs {
+    padding: 2px;
+    max-width: 290px;
+  }
+  .PricingContant p {
+    padding-top: 40px;
+    padding-bottom: 25px;
+  }
+  .PricingContant .PricingBox h4 {
+    font-size: 20px;
+  }
+  .PricingContant .PricingBox h2 {
+    font-size: 35px;
+    padding-top: 40px;
+    padding-bottom: 8px;
+  }
+  .PricingContant .PricingBox h6 {
+    font-size: 12px;
+  }
+  .PricingContant .imageContant {
+    padding-top: 60px;
+    gap: 16px;
+  }
+  .PricingContant .imageContant .ContantLines {
+    gap: 14px;
+  }
+  .PricingContant .imageContant .ContantLines img {
+    max-width: 20px;
+  }
+  .PricingContant .PricingBox .TagImage {
+    max-width: 110px;
+  }
+  .PricingContant .PricingBox {
+    margin-bottom: 40px;
+    padding: 40px 30px 50px 30px;
+    height: 470px;
+  }
+  .PricingContant {
+    padding-bottom: 60px;
+    padding-top: 110px;
+  }
+  .container {
+    max-width: 900px;
+  }
+  .PricingContant .PricingBoxes .BoxRightimg {
+    max-width: 85px;
+  }
+  .PricingContant .PricingBoxes .BoxLeftimg {
+    max-width: 150px;
+  }
+  .PricingContant::before {
+    transform: translate(0%, -57%);
+  }
+  .Search-LeftSide .Percentage .progress {
+    max-width: 140px;
+  }
+  .Search-LeftSide .Percentage h6 {
+    padding: 8px 18px;
+    max-width: 60px;
+  }
+  .Search-LeftSide .ResetBottom {
+    padding: 6px 14px;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .Search-RightSide .collapse {
+    max-width: 690px;
+  }
+  .SettingMain {
+    padding-top: 50px;
+  }
+  .SettingLeftSide {
+    padding-right: 50px;
+    padding-left: 20px;
+  }
+  .SettingLeftSide .ProfilePic {
+    max-width: 260px;
+  }
+  .SettingLeftSide .PencilPic img {
+    max-width: 22px;
+  }
+  .SettingLeftSide .SettingPara p {
+    font-size: 12px;
+    padding: 15px 0px 12px 0px;
+  }
+  .SettingLeftSide .DollarContant {
+    gap: 6px;
+  }
+  .SettingLeftSide .DollarContant img {
+    max-width: 20px;
+  }
+  .SettingRightSide h1 {
+    font-size: 14px;
+  }
+  .SettingRightSide p {
+    padding: 15px 0 5px 0;
+  }
+  .SettingRightSide .form-control {
+    height: 36px;
+    padding-left: 8px;
+    margin: 4px 0 14px 0;
+  }
+  .SettingRightSide .FR-Button {
+    font-size: 12px;
+    padding: 8px 18px;
+  }
+  .SettingRightSide .Account {
+    padding-top: 70px;
+    padding-bottom: 20px;
+  }
+  .SettingRightSide .WorldSelect h5 {
+    font-size: 12px;
+  }
+  .SettingRightSide .DropDownButton {
+    padding: 8px 8px 8px 14px;
+    margin: 4px 0 14px 0;
+  }
+  .SettingRightSide .Map {
+    gap: 8px;
+    font-size: 14px;
+  }
+  .SettingRightSide .Map img {
+    max-width: 18px;
+  }
+  .SettingRightSide .dropdown-item {
+    gap: 8px;
+    padding: 8px 0px 8px 10px;
+  }
+  .SettingRightSide .BottomBtn p {
+    font-size: 14px;
+  }
+  .SettingRightSide .BottomBtn {
+    gap: 12px;
+  }
+  .SettingRightSide .BottomBtn .toggle-btn {
+    height: 30px;
+    padding: 4px;
+  }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .Search-LeftSide .SearchLogo {
+    max-width: 150px;
+  }
+  .Search-LeftSide .SearchBox p {
+    font-size: 14px;
+  }
+  .Search-LeftSide .SearchButton a {
+    padding: 2px 10px;
+    font-size: 8px;
+  }
+  .Search-LeftSide .SearchBox {
+    padding: 4px 4px 6px 14px;
+    margin-top: 20px;
+  }
+  .MainSection .Search-LeftSide {
+    width: 230px;
+    padding: 14px 20px 0px 20px;
+  }
+  .Search-LeftSide .Search-Valueimage {
+    align-items: end;
+  }
+  .SettingLeftSide {
+    padding-right: 40px;
+    padding-left: 15px;
+  }
+  .SettingLeftSide .ProfilePic {
+    max-width: 230px;
+  }
+  .SettingLeftSide .PencilPic img {
+    max-width: 20px;
+  }
+  .SettingLeftSide .PencilPic {
+    top: 10px;
+    right: 10px;
+    padding: 4px;
+  }
+  .SettingLeftSide .SettingPara p {
+    font-size: 10px;
+    padding: 12px 0px 8px 0px;
+  }
+  .SettingRightSide h1 {
+    font-size: 12px;
+  }
+  .SettingRightSide p {
+    padding: 12px 0 2px 0;
+  }
+  .Search-RightSide p {
+    font-size: 10px;
+  }
+  .SettingRightSide .form-control {
+    height: 30px;
+    padding-left: 6px;
+    margin: 4px 0 10px 0;
+  }
+  .SettingRightSide .FR-Button {
+    font-size: 10px;
+    padding: 6px 14px;
+  }
+  .SettingRightSide .Account {
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+  .SettingRightSide .WorldSelect h5 {
+    font-size: 10px;
+  }
+  .SettingRightSide .DropDownButton {
+    padding: 6px 6px 6px 10px;
+    margin: 4px 0 10px 0;
+  }
+  .SettingRightSide .Map {
+    font-size: 12px;
+  }
+  .SettingRightSide .Map img {
+    max-width: 16px;
+  }
+  .SettingRightSide .dropdown-item {
+    padding: 6px 0px 6px 6px;
+  }
+  .SettingRightSide .BottomBtn p {
+    font-size: 12px;
+  }
+  .SettingRightSide .BottomBtn .toggle-btn {
+    height: 24px;
+    padding: 2px;
+  }
+  .SettingRightSide .BottomBtn .inner-circle {
+    max-width: 18px;
+    height: 18px;
+  }
+  .MainSection .Search-RightSide {
+    margin-left: 230px;
+    width: 100%;
+    max-width: 500px;
+  }
+  .SettingBottom {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+  .SettingRightSide .BottomBtn .toggle-btn.active > .inner-circle {
+    margin-left: 30px !important;
+  }
+  .mainNavbar {
+    padding: 10px 12px;
+  }
+  .PricingContant .TopHeading h1 {
+    font-size: 30px;
+    padding-right: 4px;
+  }
+  .PricingContant .TopHeading {
+    padding-bottom: 10px;
+  }
+  .PricingContant .TopMainContant .PricingButton .nav-link {
+    font-size: 10px;
+    padding: 6px 20px;
+  }
+  .PricingContant .TopMainContant .PricingButton .nav-tabs {
+    max-width: 224px;
+  }
+  .PricingContant p {
+    padding-top: 24px;
+    padding-bottom: 15px;
+  }
+  .PricingContant p img {
+    padding-right: 5px;
+  }
+  .PricingContant .PricingBox h4 {
+    font-size: 16px;
+  }
+  .PricingContant .PricingBox h2 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 4px;
+  }
+  .PricingContant .imageContant {
+    padding-top: 35px;
+    gap: 10px;
+  }
+  .PricingContant .imageContant .ContantLines {
+    gap: 10px;
+  }
+  .PricingContant .imageContant .ContantLines h3 {
+    font-size: 12px;
+  }
+  .PricingContant .imageContant .ContantLines img {
+    max-width: 16px;
+  }
+  .PricingContant .PricingBox {
+    margin-bottom: 20px;
+    padding: 20px 20px 40px 20px;
+    height: 350px;
+  }
+  .PricingContant .PricingBox .TagImage {
+    max-width: 80px;
+  }
+  .NavBtn {
+    font-size: 8px;
+    padding: 4px 12px;
+  }
+  .container {
+    max-width: 700px;
+  }
+  .PricingContant .PricingBoxes .MainPricingBox {
+    width: calc(33.33% - 10px);
+  }
+  .PricingContant .PricingBoxes .BoxRightimg {
+    max-width: 60px;
+  }
+  .PricingContant .PricingBoxes .BoxRightimg {
+    top: 24%;
+  }
+  .PricingContant .PricingBoxes .BoxLeftimg {
+    max-width: 100px;
+    left: -17%;
+    top: 10%;
+  }
+  .PricingContant {
+    padding-bottom: 30px;
+    padding-top: 80px;
+  }
+  .PricingContant::before {
+    transform: translate(0%, -60%);
+  }
+  .Search-LeftSide .CoinsTypeBox h5 {
+    font-size: 10px;
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+  .Search-LeftSide .DropDownButton {
+    max-width: 180px;
+    padding: 4px 4px 4px 10px;
+  }
+  .Search-LeftSide .dropdown-menu {
+    padding: 6px;
+    max-width: 180px;
+  }
+  .Search-LeftSide .dropdown-item {
+    font-size: 12px;
+  }
+  .SearchNavTab .nav-link {
+    font-size: 14px !important;
+  }
+  .SearchNavTab .nav {
+    gap: 18px;
+  }
+  .HistoryPage .HistoryCalender {
+    gap: 8px;
+    padding: 20px 0 12px 0;
+  }
+  .accordion-button {
+    padding: 12px;
+  }
+  .SearchNavTab {
+    padding: 20px 0px 0px 15px;
+    padding-right: 10px;
+  }
+  .HistoryMealBox .HistoryLeftContant img {
+    max-width: 70px;
+  }
+  .HistoryMealBox .HistoryLeftContant h4 {
+    font-size: 14px;
+    padding-bottom: 6px;
+  }
+  .HistoryMealBox .HistoryLeftContant span {
+    font-size: 8px;
+    padding: 2px 8px;
+  }
+  .HistoryMealBox .HistoryRightContant p {
+    font-size: 8px;
+  }
+  .HistoryPage .HistoryAccordionBox .accordion {
+    gap: 8px;
+  }
+  .HistoryPage .HistoryAccordionBox .accordion .HistoryCalenderTwo {
+    padding-top: 20px;
+  }
+  .HistoryPage .HistoryCalender p {
+    font-size: 12px;
+  }
+  .HistoryPage .HistoryCalender img {
+    max-width: 18px;
+  }
+  .HistoryMealBox {
+    padding-right: 25px;
+  }
+  .HistoryPagination {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    max-width: 420px;
+  }
+  .HistoryPagination .PaginationLeftSide .page-link {
+    font-size: 8px;
+  }
+  .HistoryPagination .PaginationLeftSide p {
+    font-size: 8px;
+  }
+  .Search-RightSide p {
+    font-size: 8px;
+  }
+  .SearchNavTab .LeftContant h3 {
+    font-size: 12px;
+  }
+  .SearchNavTab .LeftContant h6 {
+    font-size: 8px;
+    max-width: 60px;
+    margin-top: 6px;
+    padding: 2px 12px;
+  }
+  .SearchNavTab .LeftContant img {
+    padding-top: 20px;
+    max-width: 250px;
+  }
+  .SearchNavTab .MainContantAcc {
+    padding: 30px 10px 20px 10px;
+    gap: 25px;
+  }
+  .SearchNavTab .icontext p {
+    font-size: 10px;
+  }
+  .SearchNavTab .icontext img {
+    max-width: 14px;
+  }
+  .SearchNavTab .RightContant h5,
+  .SearchNavTab .RightContant h4 {
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .SearchNavTab .ContantLines p {
+    font-size: 10px;
+  }
+  .SearchNavTab .ContantLines {
+    gap: 10px;
+  }
+  .SearchNavTab .ContantBoxRight p {
+    font-size: 10px;
+  }
+  .SearchNavTab .SearchBar {
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  .SearchNavTab .SearchBar input {
+    height: 40px;
+    padding: 0px 10px;
+  }
+  .SearchNavTab .SearchBar input::placeholder {
+    font-size: 12px;
+  }
+  .SearchNavTab .FR-Button {
+    font-size: 10px;
+    padding: 6px 20px;
+  }
+  .SearchNavTab .imageContent p {
+    font-size: 8px;
+  }
+  .SearchNavTab .imageContent {
+    gap: 6px;
+    padding-top: 14px;
+  }
+  .SearchNavTab .RadioContantSide {
+    max-width: 108px;
+  }
+  .SearchNavTab .Line {
+    margin-top: 20px;
+    margin-bottom: 26px;
+  }
+  .SearchNavTab .SearchContant h2 {
+    font-size: 14px;
+  }
+  .SearchNavTab .SpanTag {
+    padding-top: 6px;
+    padding-bottom: 16px;
+  }
+  .SearchNavTab .SearchContant span {
+    font-size: 8px;
+    padding: 2px 10px;
+  }
+  .SearchNavTab .icontext {
+    gap: 10px;
+  }
+  .SearchNavTab .icontext p {
+    font-size: 8px;
+  }
+  .SearchNavTab .icontext img {
+    max-width: 10px;
+  }
+  .SearchNavTab .SearchContant h3 {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+  }
+  .SearchNavTab .ContantLines {
+    gap: 8px;
+  }
+  .SearchNavTab .ContantLines p {
+    font-size: 8px;
+  }
+  .SearchNavTab .ContantLines img {
+    max-width: 12px;
+  }
+  .SearchNavTab .MainContantBox {
+    gap: 20px;
+    padding-bottom: 30px;
+  }
+  .SearchNavTab .SearchContant {
+    padding: 20px 15px 100px 15px;
+    margin-left: 8px;
+  }
+  .SearchNavTab .BoxBottom {
+    padding-top: 30px;
+  }
+  .SearchNavTab .StarBox img {
+    max-width: 12px;
+  }
+  .SearchNavTab .BoxBottomTwo {
+    gap: 6px;
+  }
+  .SearchNavTab .BoxBottomTwo img {
+    max-width: 12px;
+  }
+  .SearchNavTab .BottomBtn {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .SearchNavTab .RadioButtons h2 {
+    font-size: 12px;
+  }
+  .SearchNavTab .RadioBtn {
+    padding-top: 8px;
+    gap: 5px;
+  }
+  .SearchNavTab .form-check-label {
+    font-size: 10px;
+  }
+  .SearchNavTab .form-check-input {
+    max-width: 12px;
+    height: 12px;
+  }
+  .SearchNavTab .form-check {
+    padding: 2px 6px 2px 8px;
+    gap: 6px;
+  }
+  .SearchNavTab .SearchBoxMeal {
+    padding: 20px 0px 30px 0px;
+    margin-left: 12px;
+  }
+  .SearchNavTab .MealHead h1 {
+    font-size: 18px;
+  }
+  .SearchNavTab .AccordionSections {
+    padding-top: 25px;
+  }
+  .SearchNavTab .AccordionSections .accordion-button {
+    font-size: 12px;
+    padding: 15px 20px;
+  }
+  .SearchNavTab .SideTwo {
+    padding: 30px 30px 0px 40px;
+  }
+  .SearchNavTab .BottomBtn {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  .SearchNavTab .FR-Button {
+    font-size: 8px;
+    padding: 4px 14px;
+  }
+  .Search-LeftSide .Percentage .progress {
+    max-width: 128px;
+  }
+  .Search-LeftSide .Percentage h6 {
+    padding: 4px 14px;
+    max-width: 45px;
+    font-size: 12px;
+  }
+  .Search-LeftSide .ResetBottom {
+    padding: 4px 10px;
+    gap: 6px;
+    margin-top: 6px;
+  }
+}
+/* mobile Phones small devices */
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    max-width: 150px;
+  }
+  .mainNavbar {
+    padding: 6px 8px;
+  }
+  .mainNavbar .navbar-toggler-icon {
+    font-size: 12px;
+  }
+  .LogoExtraToogle {
+    padding-bottom: 10px;
+    max-width: 140px;
+  }
+  .Pricing .navbar-nav {
+    max-width: 200px;
+  }
+  .PricingContant .TopHeading h1 {
+    font-size: 20px;
+    padding-right: 2px;
+  }
+  .PricingContant .TopHeading {
+    align-items: center;
+  }
+  .PricingContant p {
+    padding-top: 16px;
+    padding-bottom: 12px;
+    font-size: 8px;
+  }
+  .PricingContant .TopMainContant .PricingButton .nav-link {
+    font-size: 8px;
+  }
+  .PricingContant .TopMainContant .PricingButton .nav-tabs {
+    max-width: 198px;
+  }
+  .PricingContant .PricingBoxes .MainPricingBox {
+    width: 100%;
+  }
+  .PricingContant .PricingBoxes {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .container {
+    max-width: 330px;
+  }
+  .PricingContant .PricingBox {
+    margin-bottom: 10px;
+    padding: 20px 40px 40px 38px;
+    height: 330px;
+  }
+  .PricingContant .PricingBoxes .BoxLeftimg {
+    left: -36%;
+    top: 3%;
+  }
+  .PricingContant .PricingBoxes .BoxRightimg {
+    top: 77%;
+    right: 0%;
+  }
+  .PricingContant {
+    padding-top: 100px;
+  }
+  .PricingContant::before {
+    transform: translate(0%, -40%);
+  }
+  .Search-LeftSide .SearchLogo {
+    max-width: 100px;
+  }
+  .Search-LeftSide .SearchBox {
+    padding: 2px 2px 2px 4px;
+    margin-top: 10px;
+  }
+  .MainSection.active .Search-LeftSide {
+    border-right: 1px solid #1F1F26;
+  }
+  .MainSection.active .Search-LeftSide .DashBoardBtn {
+    display: block !important;
+  }
+  .MainSection .Search-LeftSide {
+    width: 140px;
+    padding: 10px 4px 0px 4px;
+  }
+  .MainSection .Search-LeftSide .ButtonDB {
+    color: #6CC612;
+    background: transparent;
+    border: 1px solid #6CC612;
+    border-radius: 6px;
+    position: fixed;
+    z-index: 10;
+    right: 10px;
+    top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .MainSection .Search-LeftSide .DashBoardBtn {
+    display: none;
+  }
+  .MainSection.active .Search-RightSide {
+    margin-left: 140px !important;
+    max-width: 236px !important;
+  }
+  .MainSection .Search-RightSide {
+    margin-left: unset;
+    max-width: 100%;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    z-index: -1;
+  }
+  .SettingMain {
+    padding-top: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .SettingLeftSide {
+    padding-right: 15px;
+  }
+  .SettingLeftSide .SettingPara {
+    text-align: center;
+  }
+  .SettingLeftSide .DollarContant {
+    justify-content: center;
+  }
+  .SettingRightSide h1 {
+    text-align: center;
+  }
+  .footericons {
+    max-width: 214px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Search-LeftSide .SearchButton a {
+    padding: 2px 6px;
+    font-size: 6px;
+  }
+  .SettingLeftSide .PencilPic img {
+    max-width: 28px;
+  }
+  .Search-LeftSide .CoinsTypeBox h5 {
+    font-size: 8px;
+    gap: 5px;
+    margin-bottom: 5px;
+  }
+  .Search-LeftSide .DropDownButton .Map {
+    gap: 6px;
+    font-size: 10px;
+  }
+  .Search-LeftSide .DropDownButton .Map img {
+    max-width: 10px;
+  }
+  .Search-LeftSide .DropDownButton {
+    max-width: 120px;
+    padding: 2px;
+    height: 20px;
+  }
+  .Search-LeftSide .DropDownButton .SlideArrow img {
+    max-width: 10px;
+  }
+  .Search-LeftSide .CoinsTypeBox h5 img {
+    max-width: 12px;
+  }
+  .Search-LeftSide .dropdown-item {
+    font-size: 10px;
+  }
+  .Search-LeftSide .dropdown-item img {
+    max-width: 10px;
+  }
+  .Search-LeftSide .dropdown-menu {
+    padding: 4px;
+    min-width: 100px;
+  }
+  .Search-LeftSide .Percentage .progress {
+    max-width: 70px;
+    height: 10px;
+  }
+  .Search-LeftSide .Percentage h6 {
+    padding: 2px 6px;
+    max-width: 30px;
+    font-size: 10px;
+  }
+  .Search-LeftSide .ResetBottom {
+    padding: 2px 6px;
+    gap: 6px;
+    margin-top: 4px;
+  }
+  .Search-LeftSide .ResetBottom h4 {
+    font-size: 8px;
+  }
+  .Search-LeftSide .ResetBottom img {
+    max-width: 10px;
+  }
+  .SearchNavTab .nav-link.active {
+    padding-bottom: 6px;
+  }
+  .SearchNavTab .SearchBar input {
+    height: 32px;
+    padding: 0px 6px;
+  }
+  .SearchNavTab .FR-Contant {
+    max-width: 83px;
+  }
+  .SearchNavTab .imageContent p {
+    font-size: 6px;
+  }
+  .SearchNavTab .Line {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .SearchNavTab {
+    padding: 10px 0px 0px 10px;
+    padding-right: unset;
+  }
+  .SearchNavTab .SearchContant h2 {
+    font-size: 10px;
+  }
+  .SearchNavTab .SearchContant span {
+    font-size: 6px;
+    padding: 2px 6px;
+  }
+  .SearchNavTab .SpanTag {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  .SearchNavTab .SearchContant h3 {
+    font-size: 10px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+  .SearchNavTab .MainContantBox {
+    gap: 10px;
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+  }
+  .SearchNavTab .StarBox img {
+    max-width: 6px;
+  }
+  .Search-RightSide p {
+    font-size: 4px;
+  }
+  .SearchNavTab .BoxBottomTwo img {
+    max-width: 8px;
+  }
+  .SearchNavTab .RightBoxes {
+    gap: 10px;
+  }
+  .SearchNavTab .BottomBtn {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .SearchNavTab .RadioButtons h2 {
+    font-size: 8px;
+  }
+  .SearchNavTab .RadioBtn {
+    padding-top: 6px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .SearchNavTab .RadioContant {
+    flex-wrap: wrap;
+  }
+  .SearchNavTab .MealHead h1 {
+    font-size: 12px;
+  }
+  .SearchNavTab .MealHead {
+    max-width: 212px;
+    padding-left: unset;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;
+  }
+  .SearchNavTab .AccordionSections .accordion-button {
+    font-size: 8px;
+    padding: 10px;
+  }
+  .SearchNavTab .accordion-button::after {
+    max-width: 10px;
+  }
+  .SearchNavTab .MainContantAcc {
+    padding: 10px 6px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .SearchNavTab .SideTwo {
+    padding: 15px 10px 0px 15px;
+  }
+  .SearchNavTab .BottomBtn {
+    padding-top: 8px;
+    padding-bottom: 10px;
+  }
+  .SearchNavTab .FR-Button {
+    font-size: 4px;
+    padding: 2px 8px;
+  }
+  .HistoryPage .HistoryCalender p {
+    font-size: 10px;
+  }
+  .HistoryPage .HistoryCalender img {
+    max-width: 12px;
+  }
+  .HistoryPage .HistoryCalender {
+    gap: 4px;
+    padding: 14px 0 10px 0;
+  }
+  .HistoryMealBox .HistoryLeftContant {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .HistoryMealBox {
+    padding-right: 0px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=style1.css.map */

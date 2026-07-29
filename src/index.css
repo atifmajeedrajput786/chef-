@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+.form-error {
+  color: #d9534f;
+  font-size: 13px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.form-success {
+  color: #2e9e4f;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.link-reset {
+  color: inherit;
+}
