@@ -274,24 +274,22 @@ export default function Home() {
           <h1>
             What our customers<span>says about us!</span>
           </h1>
-          <div className="customersBoxes">
-            <Carousel ref={testimonialRef} slidesToShow={4} className="customersBoxes-inner">
-              {testimonials.map((t, i) => (
-                <div className="customersBox" key={i}>
-                  <div className="customerIMG">
-                    <img src={t.icon} alt="" />
-                  </div>
-                  <h2>{t.name}</h2>
-                  <p>{testimonialQuote}</p>
-                  <div className="R-Stars">
-                    {[0, 1, 2, 3, 4].map((s) => (
-                      <img src={reviewStars} alt="" key={s} />
-                    ))}
-                  </div>
+          <Carousel ref={testimonialRef} slidesToShow={4} className="customersBoxes">
+            {testimonials.map((t, i) => (
+              <div className="customersBox" key={i}>
+                <div className="customerIMG">
+                  <img src={t.icon} alt="" />
                 </div>
-              ))}
-            </Carousel>
-          </div>
+                <h2>{t.name}</h2>
+                <p>{testimonialQuote}</p>
+                <div className="R-Stars">
+                  {[0, 1, 2, 3, 4].map((s) => (
+                    <img src={reviewStars} alt="" key={s} />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </Carousel>
           <div className="Arrows-Customers d-lg-flex d-none">
             <button type="button" className="Arrow LeftCustomer" onClick={() => testimonialRef.current?.slickPrev()}>
               <img src={arrowLeftSvg} alt="Previous" />
